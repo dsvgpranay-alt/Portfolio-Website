@@ -1,9 +1,5 @@
 # 🌐 Personal Portfolio Website
-
-A modern and responsive personal portfolio website developed as **Task 2** during the **Oasis Infobyte Web Development & Designing Internship**. The portfolio showcases my profile, technical skills, education, featured projects, and contact information in a clean and interactive interface.
-
 ---
-
 ## 📌 Objective
 
 The objective of this project was to design and develop a professional portfolio website that effectively highlights my skills, educational background, projects, and achievements while providing recruiters and visitors with an engaging user experience.
@@ -68,11 +64,3 @@ Successfully developed a professional and fully responsive personal portfolio we
 
 ---
 
-## 👨‍💻 Author
-
-**DSVG Pranay**
-
-- GitHub: https://github.com/dsvgpranay-alt
-- LinkedIn: https://www.linkedin.com/in/desu-sai-venkata-ganesh-pranay-ba9480381/
-
----
