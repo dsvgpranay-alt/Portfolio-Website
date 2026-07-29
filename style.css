@@ -6,8 +6,8 @@
   --text-primary: #1c1e22;
   --text-muted: #5c6068;
 
-  --accent: #1f6f5c;       /* deep teal - main accent color */
-  --accent-soft: #e6f0ed;  /* light teal background for tags/badges */
+  --accent: #1f6f5c;       
+  --accent-soft: #e6f0ed;  
 
   --font-heading: 'JetBrains Mono', monospace;
   --font-body: 'Inter', sans-serif;
@@ -56,7 +56,6 @@ section {
   padding: 90px 0;
 }
 
-/* Section titles used across the page */
 .section-title {
   font-family: var(--font-heading);
   font-size: 1.6rem;
@@ -110,7 +109,6 @@ section {
   color: var(--accent);
 }
 
-/* Hamburger menu button - hidden on desktop */
 .menu-btn {
   display: none;
   flex-direction: column;
@@ -442,10 +440,11 @@ section {
   transition: transform 0.2s ease;
 }
 
-/* The arrow nudges forward on hover, separate from the card lift */
 .project-card:hover .project-link {
   transform: translateX(4px);
 }
+
+
 .achievements {
   background-color: var(--surface);
   border-top: 1px solid var(--border);

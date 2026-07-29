@@ -5,7 +5,6 @@ menuBtn.addEventListener("click", () => {
   navLinks.classList.toggle("open");
 });
 
-// Close the mobile menu whenever a link is clicked
 navLinks.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => {
     navLinks.classList.remove("open");
@@ -38,13 +37,11 @@ function typeEffect() {
 
   let typingSpeed = isDeleting ? 60 : 100;
 
-  // Once the full word is typed, pause, then start deleting
   if (!isDeleting && charIndex === currentRole.length) {
     typingSpeed = 1400;
     isDeleting = true;
   }
 
-  // Once the word is fully deleted, move to the next role
   if (isDeleting && charIndex === 0) {
     isDeleting = false;
     roleIndex = (roleIndex + 1) % roles.length;
