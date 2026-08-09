@@ -1,10 +1,10 @@
 # 🌐 Personal Portfolio Website
 ---
-## 📌 Objective
+<br>
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
 
-The objective of this project was to design and develop a professional portfolio website that effectively highlights my skills, educational background, projects, and achievements while providing recruiters and visitors with an engaging user experience.
-
----
 
 ## ✨ Features
 
@@ -41,26 +41,6 @@ Portfolio-Website/
 ├── script.js
 └── README.md
 ```
-
----
-
-## 🚀 Steps Performed
-
-1. Designed a modern and responsive portfolio layout.
-2. Created an attractive hero section introducing my profile.
-3. Added an About section with my educational background.
-4. Showcased technical skills using visually appealing cards.
-5. Displayed featured projects with descriptions.
-6. Integrated GitHub and LinkedIn profile links.
-7. Optimized the website for different screen sizes.
-8. Tested responsiveness across desktop, tablet, and mobile devices.
-9. Published the project to GitHub.
-
----
-
-## 🎯 Outcome
-
-Successfully developed a professional and fully responsive personal portfolio website that effectively showcases my technical skills, projects, educational background, and professional profile. The project strengthened my front-end development skills while demonstrating my ability to create visually appealing and user-friendly web applications.
 
 ---
 
