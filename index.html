@@ -5,14 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DSVG Pranay | Software Developer</title>
 
-  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 
   <header class="navbar">
     <div class="container navbar-inner">
@@ -23,12 +21,12 @@
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a href="#program">Training / Programs</a>
-        <a href="#achievements">Achievements</a>
+        <a href="#experience">Experience</a>
+        <a href="#clubs-achievements">Achievements</a>
+        <a href="#certifications">Certifications</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      
       <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">
         <span></span>
         <span></span>
@@ -36,8 +34,6 @@
       </button>
     </div>
   </header>
-
-  
   <section class="hero" id="home">
     <div class="container hero-inner">
 
@@ -48,14 +44,14 @@
           <span id="roleText"></span><span class="cursor">|</span>
         </p>
         <p class="hero-desc">
-           Aspiring Software Development Engineer (SDE) with a strong interest in software development and AI/ML. I enjoy building real-world applications, solving challenging problems, and continuously expanding my skills through hands-on projects and competitive programming.
-
-        </p>
+          Software Developer with a passion for Full Stack Development and AI/ML,
+          currently working towards becoming a Software Development Engineer (SDE)
+          by building practical, well-crafted projects.
         </p>
 
         <div class="hero-buttons">
           <a href="#contact" class="btn btn-primary">Get in touch</a>
-          <a href="#skills" class="btn btn-outline">See my skills</a>
+          <a href="#projects" class="btn btn-outline">Explore My Builds</a>
         </div>
       </div>
 
@@ -71,7 +67,7 @@
             <p><span class="prompt">$</span> whoami</p>
             <p class="output">DSVG Pranay</p>
             <p><span class="prompt">$</span> cat interests.txt</p>
-            <p class="output">SDE, AI &amp; ML</p>
+            <p class="output">Full Stack Development, AI &amp; ML</p>
             <p><span class="prompt">$</span> echo $GOAL</p>
             <p class="output">Software Development Engineer</p>
             <p><span class="prompt">$</span> <span class="blink-block">&nbsp;</span></p>
@@ -82,14 +78,16 @@
     </div>
   </section>
 
-  
   <section class="about" id="about">
     <div class="container">
       <h2 class="section-title"><span class="section-number"></span> About Me</h2>
 
       <div class="about-content">
         <p>
-        I'm a Computer Science student with a strong interest in <strong>Software Development</strong> and <strong>Artificial Intelligence / Machine Learning</strong>. I enjoy building practical applications, exploring new technologies, and continuously enhancing my skills through hands-on projects and competitive programming.
+          I'm a Computer Science student who enjoys turning ideas into working software.
+          My interests sit at the intersection of <strong>Full Stack Development</strong> and
+          <strong>Artificial Intelligence / Machine Learning</strong> — I like building
+          applications that are not just functional, but genuinely useful.
         </p>
         <p>
           I'm currently working towards a role as a <strong>Software Development Engineer (SDE)</strong>,
@@ -99,13 +97,101 @@
       </div>
     </div>
   </section>
-  
-  
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title"><span class="section-number"></span> Featured Projects</h2>
+
+      <div class="projects-list">
+
+        <div class="project-card-lg">
+          <div class="project-media">
+            <img src="images/cover-letter-generator.png" alt="Cover Letter Generator screenshot">
+          </div>
+          <div class="project-info">
+            <span class="project-folder"></span>
+            <h3>Cover Letter Generator</h3>
+            <p>A tool that generates tailored cover letters based on user input,
+              aimed at making the job-application process faster and less repetitive.</p>
+            <div class="project-tags">
+              <span class="tag tag-small">HTML</span>
+              <span class="tag tag-small">CSS</span>
+              <span class="tag tag-small">Flask</span>
+              <span class="tag tag-small">Jinja2</span>
+            </div>
+            <a href="#" class="project-link">View on GitHub &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card-lg">
+          <div class="project-media">
+            <img src="images/journal-app.png" alt="Journal App screenshot">
+          </div>
+          <div class="project-info">
+            <span class="project-folder"></span>
+            <h3>Journal App</h3>
+            <p>A full stack journaling application where users can write, save, and
+              revisit entries, backed by a Node.js server and a MySQL database.</p>
+            <div class="project-tags">
+              <span class="tag tag-small">MySQL</span>
+              <span class="tag tag-small">HTML</span>
+              <span class="tag tag-small">Bootstrap</span>
+              <span class="tag tag-small">JavaScript</span>
+              <span class="tag tag-small">Node.js</span>
+            </div>
+            <a href="#" class="project-link">View on GitHub &rarr;</a>
+          </div>
+        </div>
+
+        <div class="project-card-lg">
+          <div class="project-media">
+            <img src="images/rateverse.png" alt="RateVerse screenshot">
+          </div>
+          <div class="project-info">
+            <span class="project-folder"></span>
+            <h3>RateVerse — Currency Converter</h3>
+            <p>A lightweight currency converter that fetches live exchange rates,
+              focused on a simple UI and accurate, responsive calculations.</p>
+            <div class="project-tags">
+              <span class="tag tag-small">HTML</span>
+              <span class="tag tag-small">CSS</span>
+              <span class="tag tag-small">JavaScript</span>
+            </div>
+            <a href="#" class="project-link">View on GitHub &rarr;</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="experience" id="experience">
+    <div class="container">
+      <h2 class="section-title"><span class="section-number"></span> Experience</h2>
+
+      <div class="experience-card">
+        <div class="experience-top">
+          <div>
+            <h3>Web Development &amp; Design Intern</h3>
+            <p class="experience-org">Oasis Infobyte</p>
+          </div>
+          <p class="experience-date">June 2026 – July 2026</p>
+        </div>
+        <p class="experience-desc">
+          Engineered 3 fully responsive, interactive web applications from scratch using HTML5, CSS3, and JavaScript. Focused on implementing clean visual layouts, optimizing UI rendering performance, and ensuring seamless cross-browser compatibility across mobile and desktop devices.
+        </p>
+        <div class="tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="education" id="education">
     <div class="container">
       <h2 class="section-title"><span class="section-number"></span> Education</h2>
 
-      <div class="timeline">
+      <div class="timeline timeline-lg">
 
         <div class="timeline-item">
           <div class="timeline-dot"></div>
@@ -124,6 +210,7 @@
             <p class="timeline-date">Ongoing</p>
           </div>
         </div>
+
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
@@ -132,10 +219,11 @@
             <p class="timeline-date">2023 – 2025</p>
           </div>
         </div>
+
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <h3>St.John's English and School and Junior College</h3>
+            <h3>St. John's English School and Junior College</h3>
             <p class="timeline-place">Chennai</p>
             <p class="timeline-date">2012 – 2023</p>
           </div>
@@ -144,9 +232,7 @@
       </div>
     </div>
   </section>
-  
 
-  
   <section class="skills" id="skills">
     <div class="container">
       <h2 class="section-title"><span class="section-number"></span> Skills</h2>
@@ -156,10 +242,10 @@
         <div class="skill-card">
           <h3>Languages</h3>
           <div class="tags">
-            <span class="tag">C/C++</span>
+            <span class="tag">C</span>
+            <span class="tag">C++</span>
             <span class="tag">Python</span>
             <span class="tag">JavaScript</span>
-            <span class="tag">SQL</span>
           </div>
         </div>
 
@@ -168,7 +254,7 @@
           <div class="tags">
             <span class="tag">HTML</span>
             <span class="tag">CSS</span>
-      
+            <span class="tag">Bootstrap</span>
             <span class="tag">React</span>
           </div>
         </div>
@@ -177,7 +263,7 @@
           <h3>Backend</h3>
           <div class="tags">
             <span class="tag">Node.js</span>
-            <span class="tag">Flask</span>
+            <span class="tag">Express.js</span>
           </div>
         </div>
 
@@ -197,116 +283,61 @@
             <span class="tag">VS Code</span>
           </div>
         </div>
-        <div class="skill-card">
-          <h3>Frameworks and Libraries</h3>
-          <div class="tags">
-            <span class="tag">Jinja</span>
-            <span class="tag">Bootstrap</span>
 
-          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="achievements" id="clubs-achievements">
+    <div class="container">
+      <h2 class="section-title"><span class="section-number"></span>Achievements</h2>
+
+      <div class="achievements-list achievements-list-lg">
+
+        <div class="achievement-card">
+          <h3>Smart India Hackathon (SIH) 2025 <p class="experience-date">August 2025 – September 2025</p></h3>
+          <p>Shortlisted among the Top 50 teams (Waitlisted Team) at SRM Institute of Science and Technology
+            for the internal selection round of Smart India Hackathon 2025.
+        </div>
+        
+        <div class="achievement-card">
+          <h3>THREX Hackathon 2025 <p class="experience-date">November 2025 – December 2025</p></h3></h3>
+          <p>Ranked among the Top 84 teams out of 400+ participating teams.</p>
+        </div>
+
+        <div class="achievement-card">
+          <h3>JEE Advanced 2025 <p class="experience-date">January 2025 – April 2025</p></h3>
+          <p>Scored 93.25 percentile in JEE Main 2025, qualifying for JEE Advanced among 1.8M+ nationwide candidates.</p>
         </div>
 
       </div>
     </div>
   </section>
 
-  
-  <section class="projects" id="projects">
+  <section class="certifications" id="certifications">
     <div class="container">
-      <h2 class="section-title"><span class="section-number"></span> Featured Projects</h2>
+      <h2 class="section-title"><span class="section-number"></span> Certifications</h2>
 
-      <div class="projects-grid">
+      <div class="certifications-grid">
 
-        <div class="project-card">
-          <div class="project-top">
-            <span class="project-folder">/project</span>
-            <span class="project-tags">
-              <span class="tag tag-small">HTML</span>
-              <span class="tag tag-small">Jinja</span>
-              <span class="tag tag-small">Flask</span>
-            </span>
-          </div>
-          <h3>Cover Letter Generator</h3>
-          <p>A Flask-based web application that generates professional, personalized cover letters from user input and allows users to download them as PDF files with a clean, formatted layout.</p>
-          <a href="https://github.com/dsvgpranay-alt/Cover-Letter-Generator" class="project-link">View project &rarr;</a>
+        <div class="certification-card">
+          <h3>Python For Data Science</h3>
+          <p class="cert-org">Elite+Silver | Top 1%</p>
+          <p class="cert-org">NPTEL</p>
+          <p class="cert-date">January 2026 - February 2026</p>
+          <a href="#" class="cert-link">View Credential &rarr;</a>
         </div>
-
-        <div class="project-card">
-          <div class="project-top">
-            <span class="project-folder">/project</span>
-            <span class="project-tags">
-              <span class="tag tag-small">MySQL</span>
-              <span class="tag tag-small">Node.js</span>
-              <span class="tag tag-small">JS</span>
-            </span>
-          </div>
-          <h3>Journal App</h3>
-          <p>A full stack journaling application where users can write, save, and
-            revisit entries, backed by a Node.js server and a MySQL database.</p>
-          <a href="https://github.com/dsvgpranay-alt/journal_app" class="project-link">View project &rarr;</a>
+        <div class="certification-card">
+          <h3>Introduction to Programming Using Python</h3>
+          <p class="cert-org">Kaggle</p>
+          <p class="cert-date">2025</p>
+          <a href="#" class="cert-link">View Credential &rarr;</a>
         </div>
-        <div class="project-card">
-          <div class="project-top">
-            <span class="project-folder">/project</span>
-            <span class="project-tags">
-              <span class="tag tag-small">HTML</span>
-              <span class="tag tag-small">CSS</span>
-              <span class="tag tag-small">JS</span>
-            </span>
-          </div>
-          <h3>Currency Converter</h3>
-          <p>A lightweight tool that converts between currencies in real time,
-            focused on simple UI and accurate, responsive calculations.</p>
-          <a href="https://github.com/dsvgpranay-alt/RateVerse" class="project-link">View project &rarr;</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="program" id="program">
-    <div class="container">
-      <h2 class="section-title"><span class="section-number"></span>Training / Programs</h2>
-      <div class="project-card">
-          <div class="project-top">
-            <span class="project-tags">
-              <span class="tag tag-small">June 2026 - July 2026</span>
-            </span>
-          </div>
-          <h3>Oasis Infobyte - Web Development & Design Trainee</h3>
-          <p>Worked with the fundamentals of HTML, CSS, JavaScript, and React to build responsive and interactive web applications. Gained hands-on experience through project-based development, strengthening my frontend development, problem-solving, and debugging skills while learning modern web development practices.</p>
-        </div>
-
-    
-    </div>
-  </section>
-  
-  <section class="achievements" id="achievements">
-    <div class="container">
-      <h2 class="section-title"><span class="section-number"></span> Achievements</h2>
-
-      <div class="achievements-list">
-
-        <div class="achievement-card">
-          <h3>Smart India Hackathon (SIH) 2025</h3>
-          <p>Shortlisted among the Top 50 teams at SRM Institute of Science and Technology
-            for the internal selection round of Smart India Hackathon 2025, among 400 teams.</p>
-        </div>
-
-        <div class="achievement-card">
-          <h3>THREX Hackathon 2025</h3>
-          <p>Ranked among the Top 84 teams out of 400+ participating teams for developing
-            an innovative technology solution.</p>
-        </div>
-
-        <div class="achievement-card">
-          <h3>JEE Advanced 2025</h3>
-          <p>Qualified for JEE Advanced 2025 among over 1.8 million JEE Main candidates.</p>
-        </div>
+        
 
       </div>
     </div>
   </section>
-  
   <section class="contact" id="contact">
     <div class="container">
       <h2 class="section-title"><span class="section-number"></span> Get in Touch</h2>
@@ -316,15 +347,15 @@
       </p>
 
       <div class="contact-links">
-        <a href="mailto:desupranay2807@gmail.com" class="contact-link">Email</a>
-        <a href="https://github.com/dsvgpranay-alt" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub</a>
-        <a href="https://www.linkedin.com/in/desu-sai-venkata-ganesh-pranay-ba9480381/" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn</a>
-        <a href="https://leetcode.com/u/DSVG_2807/" target="_blank" rel="noopener noreferrer" class="contact-link">Leetcode</a>
+        <a href="mailto:your-email@example.com" class="contact-link">Email</a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn</a>
+         <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" class="contact-link">Leetcode</a>
+      </div>
       </div>
     </div>
   </section>
 
-  
   <footer class="footer">
     <div class="container">
       <p>&copy; <span id="year"></span> DSVG Pranay. Built with HTML, CSS &amp; JavaScript.</p>

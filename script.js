@@ -1,3 +1,4 @@
+
 const menuBtn = document.getElementById("menuBtn");
 const navLinks = document.getElementById("navLinks");
 
@@ -13,14 +14,13 @@ navLinks.querySelectorAll("a").forEach((link) => {
 
 const roles = [
   "Software Developer",
-  "Full Stack Enthusiast",
   "AI/ML Enthusiast",
   "Aspiring SDE"
 ];
 
 const roleText = document.getElementById("roleText");
 
-let roleIndex = 0;   
+let roleIndex = 0;  
 let charIndex = 0;   
 let isDeleting = false;
 
@@ -36,7 +36,6 @@ function typeEffect() {
   roleText.textContent = currentRole.substring(0, charIndex);
 
   let typingSpeed = isDeleting ? 60 : 100;
-
   if (!isDeleting && charIndex === currentRole.length) {
     typingSpeed = 1400;
     isDeleting = true;
@@ -52,6 +51,4 @@ function typeEffect() {
 }
 
 typeEffect();
-
-
 document.getElementById("year").textContent = new Date().getFullYear();
