@@ -13,7 +13,6 @@ navLinks.querySelectorAll("a").forEach((link) => {
 });
 
 const roles = [
-  "Software Developer",
   "AI/ML Enthusiast",
   "Aspiring SDE"
 ];
