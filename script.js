@@ -14,7 +14,7 @@ navLinks.querySelectorAll("a").forEach((link) => {
 
 const roles = [
   "AI/ML Enthusiast",
-  "Aspiring SDE"
+  "Aspiring SWE/SDE"
 ];
 
 const roleText = document.getElementById("roleText");
