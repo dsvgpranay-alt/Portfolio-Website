@@ -457,16 +457,10 @@ section {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    padding: 7px 12px;
-    border: 1px solid #c8dfd1;
-    border-radius: 20px;
-    background: #edf5ef;
     color: #347666;
     font-family: 'JetBrains Mono', monospace;
     font-size: 12px;
     font-weight: 500;
-    letter-spacing: 0.2px;
-    cursor: default;
   }
 
   .dev-status-dot {
