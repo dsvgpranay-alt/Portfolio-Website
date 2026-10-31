@@ -454,14 +454,15 @@ section {
   background-color: #00040c;
 }
 .dev-status {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    color: #347666;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 12px;
-    font-weight: 500;
-  }
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  color: #347666;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  font-weight: 500;
+}
 
   .dev-status-dot {
     width: 7px;
